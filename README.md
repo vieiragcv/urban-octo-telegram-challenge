@@ -30,5 +30,7 @@ CONVENTIONS:
 - space-less approach
 - avoid long coding lines
 - add blank lines to separate large or logical code blocks
-- add two spaces of indentations, do not use the tab key
-- 
+
+Landing Page Expected Result:
+
+![01-html-css-git-homework-demo](https://user-images.githubusercontent.com/95590262/147145955-43ebfe1b-eda8-4a4c-b7d8-c7df2301b3aa.png)
