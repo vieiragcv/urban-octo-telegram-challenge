@@ -1,4 +1,4 @@
-/** GENERAL STYLES **/
+/** GENERAL **/
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-/** HEADER STYLES **/
+/** HEADER **/
 
 .header {
     padding: 20px;
@@ -47,7 +47,7 @@ a {
     font-size: 20px;
 }
 
-/** Navigation Style **/
+/** NAVIGATION **/
 
 .header div ul {
     display: flex;
@@ -56,7 +56,18 @@ a {
 }
 
 .header div ul li {
-    display: inline-block;
+        margin-left: 25px;
+}
+
+/** CONTENT **/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
     margin-left: 25px;
 }
 
@@ -67,16 +78,6 @@ a {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");      
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .out-box { /** NOT YET APPLIED **/
@@ -98,12 +99,14 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-.box-1-content img {
-    max-height: 200px;
-}
+
 .box-1-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.box-1-content img {
+    max-height: 200px;
 }
 
 .box-2 {
